@@ -1,0 +1,52 @@
+/*
+RESET
+*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+h1,
+p {
+  text-align: center;
+}
+section {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+section.game {
+  border: 2px solid blue;
+  background-image: url(../PopUp/img/SI_3DSVC_SuperMarioBros_image1600w.jpeg);
+  background-size: cover;
+  margin-bottom: 2em;
+  position: relative;
+}
+section.popUp {
+  border: 2px solid rgb(255, 0, 212);
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 37px;
+  bottom: 0;
+}
+.popUpContent {
+  margin: auto;
+  height: 80%;
+  width: 80%;
+  border: 2px solid green;
+  background-color: rgba(0, 0, 0, 0.837);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start {
+  text-align: center;
+  /* height: 20%; */
+  /* margin: auto; */
+}
+
+section.popUp.hidden {
+  display: none;
+}
